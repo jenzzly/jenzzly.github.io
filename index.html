@@ -1,1 +1,160 @@
-Hello Janvier
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <title>WWTN</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="YvBzPc6pxOD5MYI-Y3TS_H_EPzagaSSireia3jEn2ZI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Janvier">
+    <meta name="msvalidate.01" content="965A13864AB98F4BD5E26B50DFA496FD" />
+    <meta name="og:url" content="https://www.wwtrends.com/" />
+    <meta name="og:type" content="wwtrends 2016" />
+    <meta name="og:title" content="World wide Trends @2016" />
+    <meta name="og:description" content="World wide trending news" />
+    <meta name="og:image" content="https://www.worldnewspolitics.com/wp-content/uploads/2016/03/breaking-news-1.jpg" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <script>
+        document.write('<base href="' + document.location + '"/>');
+    </script>
+    <base href="/">
+</head>
+
+<body ng-controller="mainController">
+      <div class="wrapper">
+       <div class="box">
+
+        <div class="row row-offcanvas row-offcanvas-left">
+            <!-- main right col -->
+            <!-- menu -->
+                 <div class="navbar navbar-custom navbar-fixed-top">
+                    <div class="navbar-header">
+                      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle</span>
+                        <span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+                      </button>
+                      <a href="#home" class="navbar-brand logo"><img src="img/logo.png"></a>
+                      <a href="#trend" class="navbar-brand visible-xs navbar-toggle"><span class="glyphicon glyphicon-facetime-video" id="menu"></span></a>
+                      <a href="#music" class="navbar-brand visible-xs navbar-toggle"><span class="glyphicon glyphicon-music" id="menu"></span></a>
+                      <a href="#movie" class="navbar-brand visible-xs navbar-toggle"><span class="glyphicon glyphicon-film" id="menu"></span></a>
+                  	</div>
+                  	<nav class="collapse navbar-collapse container" role="navigation">
+                    <menu class="hidden-xs"></menu>
+                    <ul class="nav navbar-nav">
+                      <li class="hidden-xs">
+                        <a href="home#postModal" role="button" data-toggle="modal"><i class="glyphicon glyphicon-plus"></i> Share</a>
+                      </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-flag"></span>Countries</a>
+                        <ul class="dropdown-menu">
+                            <li><a ui-sref=home>United States (Defaults)</a></li>
+                            <li><a ui-sref=belgium>Belgium</a></li>
+                            <li><a ui-sref=brazil>Brazil</a></li>
+                            <li><a ui-sref=france>France</a></li>
+                            <li><a ui-sref=hongkong>Hong Kong</a></li>
+                            <li><a ui-sref=india>India</a></li>
+                            <li><a ui-sref=japan>Japan</a></li>
+                            <li><a ui-sref=kenya>Kenya</a></li>
+                            <li><a ui-sref=mexico>Mexico</a></li>
+                            <li><a ui-sref=nigeria>Nigeria</a></li>
+                            <li><a ui-sref=rwanda>Rwanda</a></li>
+                            <li><a ui-sref=russia>Russia</a></li>
+                            <li><a ui-sref=saudi>Saudi Arabia</a></li>
+                            <li><a ui-sref=thailand>Thailand</a></li>
+                            <li><a ui-sref=uk>United Kingdom</a></li>
+                            <li><a ui-sref=vietnam>Vietnam</a></li>
+                        </ul>
+                      </li>
+                     <li class="hidden-xs">
+                        <a href="#" onclick="clearContents(this)">Help</a>
+                      </li>
+                    </ul>
+                  	</nav>
+                  </div>
+        <!--     end of menu-->
+
+        <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+         <ul class="nav nav-sidebar">
+              <li><a href="#home"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+              <li><a ui-sref=tech><i class="glyphicon glyphicon-unchecked"></i> Technology</a></li>
+              <li><a ui-sref=sports><i class="glyphicon glyphicon-unchecked"></i> Sports</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Videos<span class="sr-only">(current)</span></a></li>
+            <li><a ui-sref="trend"><i class="glyphicon glyphicon-fire"></i> Trending</a></li>
+            <li><a ui-sref="music"><i class="glyphicon glyphicon-music"></i> Music</a></li>
+            <li><a ui-sref="movie"><i class="glyphicon glyphicon-film"></i> Movies</a></li>
+            <li><a ui-sref="sportvideo"><i class="glyphicon glyphicon-play-circle"></i> Sports</a></li>
+          </ul>
+
+            <div class="side-bottom">
+						<div class="side-bottom-icons">
+							<ul class="nav2">
+								<li><a href="https://www.facebook.com/wwtrending/" class="facebook" target="_blank"> </a></li>
+								<li><a href="https://www.facebook.com/wwtrending/" class="facebook twitter"> </a></li>
+								<li><a href="https://www.facebook.com/wwtrending/" class="facebook chrome"> </a></li>
+								<li><a href="https://www.facebook.com/wwtrending/" class="facebook dribbble"> </a></li>
+              </ul>
+						</div>
+						<div class="copyright">
+							<p>Copyright ©2018 WWTN. All Rights Reserved</p>
+						</div>
+                </div>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-11 col-md-offset-1 main">
+            <div ui-view> <content></content> </div>
+        </div>
+      </div>
+     </div>
+     </div>
+     </div>
+     <!--post modal-->
+     <div id="postModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <form class="form center-block" ng-submit="addMessage()">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                   Share links with us?
+              </div>
+              <div class="modal-body">
+                    <div class="form-group">
+                      <input class="form-control input-lg" autofocus="" placeholder="Paste a link you want to share! here :)" id="share" name="search" ng-model="newMessageText">
+                    </div>
+              </div>
+              <div class="modal-footer">
+                  <div>
+                  <button type="submit" class="btn btn-success btn-sm" aria-hidden="true">Post</button>
+                    <ul class="pull-left list-inline"><li><a href=""><i class="glyphicon glyphicon-upload"></i></a></li><li><a href=""><i class="glyphicon glyphicon-camera"></i></a></li><li><a href=""><i class="glyphicon glyphicon-map-marker"></i></a></li></ul>
+                  </div>
+              </div>
+             </form>
+          </div>
+          </div>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/oclazyload/1.0.9/ocLazyLoad.js"></script>
+    <script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-sanitize.min.js"></script>
+    <script src="js/app.js"></script>
+    <script async src="https://cdn.embedly.com/widgets/platform.js" charset="UTF-8" id="myData"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/jquery.scrollie.min_1.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-notify.js"></script>
+    <script src="js/bootstrap-notify.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

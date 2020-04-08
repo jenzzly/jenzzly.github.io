@@ -1,0 +1,683 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2551                
+POS_VISITOR 11801               
+POS_DAY 19548               
+POS_DOMAIN 3445                
+POS_LOGIN 3678                
+POS_ROBOT 3871                
+POS_WORMS 4431                
+POS_EMAILSENDER 4562                
+POS_EMAILRECEIVER 4705                
+POS_SESSION 20443               
+POS_SIDER 20658               
+POS_FILETYPES 4840                
+POS_OS 5015                
+POS_BROWSER 5130                
+POS_SCREENSIZE 5310                
+POS_UNKNOWNREFERER 5384                
+POS_UNKNOWNREFERERBROWSER 5931                
+POS_ORIGIN 6403                
+POS_SEREFERRALS 6546                
+POS_PAGEREFS 6714                
+POS_SEARCHWORDS 7020                
+POS_KEYWORDS 7172                
+POS_MISC 2215                
+POS_ERRORS 7231                
+POS_CLUSTER 3534                
+POS_SIDER_404 7375                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901002801 9243 1657946 37965912839
+FirstTime 20170801000109
+LastTime 20170831213432
+LastUpdate 20170901022231 9243 9045 168 0 29
+TotalVisits 1820                
+TotalUnique 180                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 210                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 203 269 842047 113 137 220605
+1 155 176 442491 150 165 28559
+2 138 145 201942 169 191 285315
+3 142 149 192857 97 117 282069
+4 131 132 335347 159 169 82604
+5 143 151 408390 113 137 324058
+6 147 154 209352 104 120 173553
+7 139 139 152494 105 118 257145
+8 159 181 271678 100 103 29041
+9 167 200 418567 105 111 69472
+10 156 187 346189 122 138 62674
+11 216 317 1988830 190 317 442071
+12 201 245 623229 127 149 117182
+13 172 215 732143 151 164 91450
+14 143 164 594286 134 148 94077
+15 166 269 796638 106 131 217147
+16 201 295 1221499 132 158 247133
+17 258 401 1566354 129 150 205195
+18 234 338 1305298 123 132 23766
+19 220 307 817624 114 126 90319
+20 198 251 597621 130 135 35780
+21 200 258 536520 125 133 35616
+22 118 163 402703 16 16 7575
+23 136 176 280002 24 34 73944
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4143 5282 15284101
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+wwtrendscom 1 41 15923 20170806154006
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+sogou 158 1256917 20170830161349 0
+spider 130 347194 20170831110149 0
+googlebot 107 322972 20170831202736 0
+baiduspider 47 406956 20170830004219 0
+bot[+:,\.\;\/\\-] 44 123347 20170829162522 0
+yandex 15 108319 20170830004359 0
+no_user_agent 14 66285 20170831165921 0
+phantom 8 132503 20170803173023 0
+ilse 7 38940 20170815233326 0
+mj12bot 3 19934 20170825234005 0
+surveybot 2 0 20170828223337 0
+mail\.ru 2 2995 20170825053928 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 170 647739 0 0
+png 231 1933503 0 0
+html 4140 4879409 0 0
+jpg 6 1062360 0 0
+js 731 6672279 0 0
+pl 3 88664 0 0
+gif 1 147 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 1025
+winxp 5
+winlong 35
+winnt 752
+Unknown 435
+linux 2787
+win2008 243
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 10
+firefox3.5.0 5
+msie8.0 14
+firefox54.0 12
+firefox48.0 8
+mozilla 115
+msie9.0 124
+chrome 4416
+Unknown 432
+safari 146
+firefox45.0 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+WhatsApp/2.17.296_A 20170815050152
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170830144829
+gobyus 20170812001017
+Incapsula_Screenshoot_Agent 20170804111838
+SiteLock 20170807142300
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20170819170657
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170825002749
+Incapsula_Site_Setup_Helper 20170804160048
+downnotifier.com_monitoring 20170805035513
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+WhatsApp/2.17.296_A 20170815050152
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170830144829
+gobyus 20170812001017
+Incapsula_Screenshoot_Agent 20170804111838
+SiteLock 20170807142300
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170825002749
+Incapsula_Site_Setup_Helper 20170804160048
+downnotifier.com_monitoring 20170805035513
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3420 3774
+From1 0 0
+From2 31 91
+From3 5 5
+From4 687 1412
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 30 90
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.bing.com/search 2 2
+http://money-for-placing-articles.com 1 1
+https://www.ipage.com/controlpanel/VisitorStats.bml 1 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 4 1048
+503 2 2157
+999 2010 0
+406 8 4156
+301 1 232
+404 737 662395
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 122
+/blog/wp-includes/wlwmanifest.xml 15 -
+/sitemap.xml 2 -
+/robots.txt 234 -
+/search/upload.php 2 -
+/india.html 2 -
+/wp-content/plugins/wp-symposium/server/php/RmNfhTFiXOKuGl.php 2 -
+/wp-content/plugins/wp-mobile-detector/resize.php 4 -
+/wp-content/plugins/wp-symposium/server/php/index.php 4 -
+/flashchat/chat/upload.php 2 -
+/site/wp-includes/wlwmanifest.xml 15 -
+/chat/upload.php 2 -
+/uploadify/uploadify.php 5 http://wwtrends.com/wp-admin/
+/topic/page/upload.php 2 -
+/wp-content/plugins/simple-image-manipulator/controller/download.php 2 -
+/vid/watch/upload.php 2 -
+/adminer-4.3.0-en.php 1 -
+/joomla/robots.txt 4 -
+/chat-sem-registo/upload.php 2 -
+/how-to-install-flashchat-free/upload.php 2 -
+/radiopoljubac/posts/upload.php 2 -
+/france.html 1 -
+/blog-chat/chat/upload.php 2 -
+/adminer-4.3.0.php 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 4 -
+/xmlrpc.php 15 -
+/wp-content/plugins/revslider/css/admin.css 2 -
+/mp3/list/upload.php 2 -
+/wp-content/plugins/wp-mobile-detector/cache/db.php 4 -
+/e-dinar-chat/upload.php 2 -
+/e107_plugins/onlineinfo_menuupload.php 2 -
+/m/upload.php 2 -
+/music-search/upload.php 2 -
+/wp-content/plugins/simple-ads-manager/js/slider/tmpl.js 4 -
+/th1s_1s_a_4o4.html 30 http://www.google.com/url
+/bitrix/admin/index.php 1 -
+/_Incapsula_Resource 18 http://wwtrends.com/_Incapsula_Resource
+/en/upload.php 2 -
+/roommate/flash_chat/upload.php 2 -
+/wp-content/themes/mTheme-Unus/css/css.php 4 -
+/chat-stjepkovica/upload.php 2 -
+/chatroom/upload.php 2 -
+/sohbet/upload.php 2 -
+//wp-login.php 1 -
+/js/%7B3%7D 30 -
+/forum/chat/upload.php 3 -
+/foro/chat/upload.php 2 -
+/exploit/description/upload.php 2 -
+/wp-content/plugins/./simple-image-manipulator/controller/download.php 2 -
+/okolice-ilawa/chat/upload.php 2 -
+/images/1998.txt 2 -
+/googlec1085c94f4e8a805.html 1 -
+/chat/FlashChat_v608/chat/upload.php 2 -
+/administrator/ 2 -
+/wp-includes/js/quicktags.js 2 -
+/Chat/Chat/upload.php 2 -
+/cms/chat/upload.php 2 -
+/board/chat/upload.php 2 -
+/chat55/upload.php 2 -
+/wp-content/plugins/wp-symposium/server/php/XqMSXgvNSVWQDg.php 2 -
+/wp-login.php 6 wwtrends.com/wp-login.php
+/community/chat/upload.php 2 -
+/public/chat/upload.php 2 -
+/m/video/upload.php 2 -
+/upload.php 2 -
+/wp-content/plugins/showbiz/css/admin.css 1 -
+/adminer-4.3.1.php 1 -
+/islamski-chat/upload.php 2 -
+/forums/chat/upload.php 2 -
+/wp-content/plugins/recent-backups/download-file.php 4 -
+/tutaf/upload.php 2 -
+/LiveSearchSiteAuth.xml 12 -
+/tag/flashchat-v6-0-8/upload.php 2 -
+/adminer-4.3.0-mysql.php 1 -
+/wp-admin/css/wp-admin-rtl.css 4 -
+/FlashChat/upload.php 2 -
+/radio/radiochat/upload.php 2 -
+/adminer-4.3.1-en.php 1 -
+/bingsiteauth.xml 6 -
+/blog-chat/upload.php 2 -
+/flashchat-2/upload.php 2 -
+/baixar/upload.php 2 -
+/page/video/upload.php 2 -
+/404javascript.js 1 http://www.google.com/url/
+/wp-includes/wlwmanifest.xml 15 -
+/shbt/upload.php 2 -
+/wp-admin/admin-ajax.php 13 -
+/~duchen/chat/upload.php 3 -
+/BingSiteAuth.xml 18 -
+/wp-content/plugins/wysija-newsletters/readme.txt 2 -
+/smf/chat/upload.php 5 -
+/cms/wp-includes/wlwmanifest.xml 9 -
+/about:blank 30 -
+/websci/radio/radiochat/upload.php 2 -
+/license.php 5 http://wwtrends.com/wp-admin/
+/_adminer.php 1 -
+/FlashChat_v608/chat/upload.php 2 -
+/cchat/chat/upload.php 2 -
+/ads.txt 4 -
+/blog/robots.txt 8 -
+/wp-content/plugins/candidate-application-form/downloadpdffile.php 4 -
+/o/BhGCe/forums.e-mpire.com/chat/upload.php 2 -
+/wp/wp-includes/wlwmanifest.xml 15 -
+/social/upload.php 2 -
+/xfchat/upload.php 2 -
+/FlashChat_v6.0.8_/chat/upload.php 2 -
+/wordpress/wp-includes/wlwmanifest.xml 15 -
+/exploits/28709/upload.php 2 -
+/chat/chat/upload.php 2 -
+/wp-content/plugins/wptf-image-gallery/lib-mbox/ajax_load.php 4 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 2 -
+/jingyan/upload.php 2 -
+/sitemap_index.xml 1 -
+/deface_flashchat/upload.php 2 -
+/haces/upload.php 2 -
+/Chat/upload.php 2 -
+/radiodalmatino/upload.php 2 -
+/chat-bebica/upload.php 2 -
+/adminer-4.3.0-mysql-en.php 1 -
+/index.php 2 -
+/live/chat/upload.php 3 -
+/Tchate/flashchat/upload.php 3 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 210
+51.140.103.156 1291 1291 2920197 20170831213434
+198.143.49.153 639 648 259900 20170831233331
+198.143.47.145 310 326 408996 20170831223434
+198.143.49.145 304 317 269113 20170831233331
+217.115.201.116 197 197 19069 20170805031523
+139.59.109.12 135 135 9401 20170805033515
+71.126.161.146 108 231 799581 20170822180928
+149.126.76.153 88 177 1258538 20170830234113
+149.126.76.145 87 194 309836 20170830234113
+198.143.38.153 48 122 594778 20170831081247
+173.252.84.56 0 2 8338 
+149.126.78.129 1 1 0 20170817231848
+131.253.25.209 4 10 27211 20170812023158
+107.182.233.175 20 27 38252 20170813215733
+204.79.180.7 2 5 9144 20170814155549
+198.143.41.153 0 2 0 
+149.126.76.57 7 7 2661 20170826015704
+45.55.28.163 8 16 48823 20170815191019
+173.44.34.13 1 1 3017 20170810195729
+202.46.58.51 1 1 9401 20170802183847
+66.102.6.173 0 1 24092 
+204.79.180.17 0 2 4259 
+204.52.135.172 0 3 7095 
+198.143.49.41 1 1 0 20170823103742
+198.143.37.49 6 6 0 20170820125830
+104.196.222.103 0 1 4576 
+198.143.34.17 5 5 0 20170817232911
+198.143.37.145 6 41 265082 20170821001646
+149.126.75.9 10 10 0 20170802020746
+191.179.17.233 1 8 33606 20170814154924
+198.143.37.89 3 3 29205 20170815133610
+198.143.41.17 1 1 0 20170810205730
+162.211.122.68 2 6 25664 20170807170733
+204.79.180.14 0 1 2752 
+198.143.33.65 3 3 13297 20170801230035
+198.143.37.17 7 7 9735 20170816072839
+199.30.25.97 1 4 20851 20170823093741
+198.143.32.1 7 7 4560 20170830110655
+198.143.33.17 4 4 0 20170805113407
+198.143.37.113 21 21 27102 20170821152234
+162.219.176.245 3 9 29030 20170827103411
+38.140.163.146 10 26 309630 20170803172659
+198.143.34.145 1 7 187167 20170817232908
+66.249.93.62 1 2 27091 20170808210306
+138.246.253.19 1 1 0 20170802223615
+202.46.51.156 1 1 9735 20170827194353
+198.143.60.9 2 2 0 20170827113411
+66.249.83.25 1 2 27087 20170806151603
+198.143.37.33 4 4 9735 20170830190548
+107.154.126.21 6 15 172134 20170804111838
+66.249.89.140 1 1 3000 20170818045313
+204.79.180.18 0 1 2752 
+142.0.193.221 5 14 172134 20170802182550
+162.253.130.35 0 3 6495 
+204.52.135.124 3 3 6217 20170822180932
+37.97.167.228 2 2 0 20170803030400
+204.79.180.20 1 3 6712 20170815183810
+198.143.32.17 5 5 29191 20170821110242
+202.46.54.203 1 1 9735 20170824052741
+174.205.20.128 5 12 36224 20170822173419
+73.135.50.218 41 68 134681 20170815155754
+198.143.38.57 1 1 0 20170811175542
+202.46.58.198 1 1 9401 20170803182435
+142.0.201.172 1 4 20394 20170801230035
+149.126.76.81 8 8 11742 20170827111052
+198.143.38.33 7 7 3532 20170815060134
+66.102.6.175 1 1 2377 20170828020341
+198.143.57.153 0 1 0 
+202.46.53.141 1 1 9735 20170813130229
+198.143.60.41 11 11 0 20170821181649
+66.249.83.29 0 1 24092 
+198.143.32.9 4 4 19470 20170829003106
+204.52.135.194 0 2 0 
+198.143.37.105 12 12 4115 20170822163654
+198.143.60.33 9 9 3560 20170823173611
+198.143.32.41 10 10 17410 20170830232535
+198.143.41.25 3 3 0 20170804200119
+142.54.183.226 1 1 10199 20170830035926
+149.126.76.49 2 2 0 20170804200119
+202.46.55.136 1 1 9401 20170804131342
+198.143.46.145 0 1 177060 
+204.52.135.201 25 41 120037 20170815164920
+40.77.181.156 8 8 17875 20170831121052
+202.46.58.16 2 2 19403 20170815145205
+199.30.24.72 0 1 4576 
+66.249.83.27 1 1 2649 20170812162642
+198.143.41.41 1 1 0 20170819103437
+198.143.33.153 1 14 221602 20170812122234
+184.154.139.19 3 9 213464 20170804110629
+199.30.24.172 1 1 445 20170801221351
+146.185.144.64 1 1 2979 20170806113312
+69.118.224.44 5 14 2273 20170803170813
+198.143.34.153 0 4 0 
+198.143.47.33 2 2 1623 20170816083434
+65.55.210.88 1 1 230 20170801211351
+202.46.52.146 1 1 9401 20170802055844
+198.143.33.73 5 5 0 20170820210023
+198.143.38.145 42 115 730564 20170831081247
+198.143.38.49 5 5 0 20170811160811
+198.143.49.17 3 3 0 20170823103745
+188.32.176.91 1 6 30972 20170827141453
+198.143.47.41 1 1 0 20170815193811
+198.143.49.9 6 6 0 20170823134547
+198.143.46.65 1 1 0 20170825124543
+173.252.124.206 0 1 177060 
+202.46.54.24 1 1 9735 20170817103725
+162.219.176.237 5 8 79338 20170820171934
+202.46.55.85 1 1 9735 20170812105334
+65.55.210.190 0 2 106732 
+66.220.146.25 0 1 177060 
+198.143.49.33 1 1 0 20170825012750
+149.126.76.25 25 25 27352 20170819182014
+162.219.176.235 0 3 22560 
+202.46.56.93 1 1 9735 20170817075402
+149.126.78.145 0 3 0 
+157.55.2.175 4 10 31751 20170809175008
+198.143.49.49 1 1 0 20170812030720
+205.196.4.4 18 36 137943 20170814112735
+198.143.47.1 5 5 219 20170809185009
+198.143.60.1 3 3 0 20170825002820
+198.143.33.121 2 2 8401 20170811002341
+66.220.148.167 1 1 0 20170825114542
+202.46.52.16 1 1 9735 20170809164716
+149.126.78.1 2 2 0 20170812001017
+149.126.76.9 21 21 30408 20170820125830
+202.46.58.191 1 1 9735 20170828121241
+173.252.84.57 0 1 2838 
+204.79.180.8 0 1 14282 
+198.143.41.145 15 16 0 20170820213404
+198.143.32.145 5 43 936280 20170830232535
+199.30.25.44 1 3 19734 20170801211350
+173.44.34.14 3 6 24358 20170804190119
+198.143.33.105 1 1 0 20170814185447
+104.236.216.73 41 41 28470 20170805035513
+149.126.78.153 0 3 0 
+202.46.50.97 1 1 9735 20170818112327
+198.143.57.65 1 1 0 20170807142300
+199.30.25.61 0 1 4576 
+198.143.34.73 1 1 0 20170815195651
+198.143.41.33 3 3 19470 20170819141243
+65.55.210.177 4 12 43462 20170829164013
+91.210.146.0 1 1 9735 20170820180112
+204.52.135.204 7 21 72097 20170813003228
+202.46.58.113 1 1 9735 20170811200030
+202.46.54.20 1 1 9735 20170827091342
+204.79.180.6 0 1 2778 
+198.143.47.25 6 6 2273 20170822063259
+198.143.37.9 1 1 0 20170818055314
+202.46.54.162 1 1 9735 20170823054655
+35.198.139.138 5 5 45894 20170815123610
+202.46.52.157 1 1 9735 20170820111053
+198.143.49.1 5 5 9735 20170824043512
+142.0.196.118 5 10 47904 20170801190033
+198.143.37.153 8 40 451521 20170830190548
+204.52.135.131 8 11 29173 20170812112348
+69.171.225.26 0 1 177060 
+198.143.38.41 28 28 13083 20170827164811
+198.143.33.25 8 8 7468 20170812123940
+202.46.55.63 1 1 9735 20170809061943
+198.143.60.17 10 10 4560 20170828181749
+204.52.135.173 13 34 116694 20170829164132
+149.126.76.17 16 16 0 20170823173611
+198.143.43.17 1 1 9735 20170830045927
+173.167.200.146 7 7 5124 20170816062838
+198.143.33.145 3 16 51419 20170827174509
+162.211.122.70 0 3 21501 
+198.143.47.153 4 19 125416 20170828074558
+198.143.60.153 3 10 131527 20170829174041
+198.143.57.145 0 1 0 
+149.126.76.73 5 5 8381 20170813225734
+204.79.180.23 1 3 7284 20170814155551
+198.143.32.33 1 1 9735 20170820110228
+198.143.60.145 42 112 452661 20170829174017
+202.46.52.145 1 1 9735 20170826052955
+142.0.201.40 2 4 27864 20170801003305
+198.143.47.49 4 4 4560 20170829174014
+199.30.24.232 0 1 96186 
+202.46.51.118 1 1 9735 20170824153143
+198.143.47.9 3 3 9735 20170823081307
+162.211.122.67 5 10 16139 20170808200326
+149.126.76.41 11 11 6455 20170825002822
+149.126.78.73 1 1 0 20170827151453
+51.140.61.82 5 5 50974 20170819131242
+199.30.24.178 2 2 4357 20170823093745
+198.143.32.153 18 54 399079 20170831110142
+198.143.37.65 5 5 0 20170831194037
+149.126.76.65 20 20 2492 20170811132248
+35.196.97.132 1 1 2995 20170825002749
+198.143.38.17 4 4 0 20170822183419
+34.224.165.109 1 1 0 20170802023157
+162.243.15.26 2 6 14011 20170810190216
+149.126.76.97 13 13 1380 20170821181648
+107.154.126.14 1 1 0 20170804160048
+37.110.33.126 0 1 1470 
+184.154.139.20 1 3 116133 20170801110727
+202.46.57.39 1 1 9735 20170831190938
+65.55.210.58 1 1 2729 20170801211352
+142.0.205.87 7 7 6865 20170814175447
+69.143.25.30 9 59 195886 20170806154006
+202.46.58.194 1 1 9735 20170810160309
+198.143.37.97 3 3 0 20170820120322
+162.219.176.236 7 15 43008 20170821174024
+198.143.47.17 1 1 9735 20170820233427
+149.126.76.33 7 7 0 20170824180950
+198.143.33.9 2 2 0 20170808182652
+162.243.10.17 1 1 2878 20170811165541
+198.143.60.25 21 21 20001 20170820181934
+202.46.56.130 1 1 9735 20170822085801
+198.143.32.49 1 1 0 20170813110128
+104.129.29.173 5 13 40894 20170813095818
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170801 198 250 1152324 62
+20170802 149 167 366173 34
+20170803 146 189 559125 40
+20170804 178 225 579007 53
+20170805 116 138 289652 49
+20170806 146 251 734650 71
+20170807 167 216 547160 68
+20170808 121 157 385800 68
+20170809 108 134 669651 58
+20170810 126 166 564503 56
+20170811 114 130 357508 59
+20170812 181 249 509191 74
+20170813 160 207 381396 68
+20170814 142 206 562173 67
+20170815 205 292 753924 74
+20170816 133 154 387149 54
+20170817 132 160 733803 64
+20170818 114 130 315727 54
+20170819 125 139 281423 62
+20170820 140 184 456246 67
+20170821 117 142 459084 53
+20170822 121 145 373827 52
+20170823 106 140 496426 62
+20170824 113 126 303144 61
+20170825 104 121 160681 58
+20170826 109 134 482018 55
+20170827 120 168 504822 58
+20170828 104 124 388133 56
+20170829 121 167 667582 52
+20170830 124 152 690841 59
+20170831 103 119 170958 52
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 174
+5mn-15mn 16
+30s-2mn 16
+2mn-5mn 4
+15mn-30mn 30
+0s-30s 1236
+30mn-1h 344
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 35
+/ 3313 4497403 1657 1527
+/template/location/frame/ustwitter.html 167 13095 19 72
+/template/userpost.html 162 95151 23 71
+/template/menu.html 156 16500 34 64
+/template/news.html 146 56887 60 13
+/template/cat/tech.html 31 40614 7 9
+/template/location/frame/tktwitter.html 27 3340 3 17
+/template/location/frame/rwtwitter.html 20 2164 3 9
+/template/location/frame/rwfacebook.html 20 9094 1 14
+/template/location/rwanda.html 19 18729 5 2
+/template/location/nigeria.html 14 10956 2 0
+/google4c89ce8cd49ff6e0.html 1 53 1 1
+/template/cat/trend.html 7 35653 2 5
+/template/location/frame/bltwitter.html 2 453 0 0
+/template/cat/music.html 6 27353 1 3
+/template/location/frame/sptwitter.html 2 412 0 1
+/stats/ 1 268 0 0
+/template/location/thailand.html 1 3277 0 0
+/template/location/frame/intwitter.html 1 220 0 0
+/template/location/india.html 1 3296 0 1
+/template/location/belgium.html 2 3895 0 0
+/stats/awstats/cgi-bin/awstats.pl 3 88664 0 1
+/template/location/frame/rstwitter.html 2 444 0 1
+/template/location/mexico.html 1 3277 0 0
+/template/location/frame/mxtwitter.html 1 221 0 0
+/template/location/uk.html 1 3277 0 0
+/template/location/frame/thtwitter.html 1 223 0 0
+/template/location/frame/ngtwitter.html 15 1968 0 6
+/template/cat/sport.html 1 4785 0 0
+/template/location/russia.html 2 6556 0 0
+/template/location/kenya.html 5 7615 1 0
+/template/location/frame/kntwitter.html 5 633 0 3
+/template/location/frame/uktwitter.html 1 229 0 0
+/template/cat/spot.html 4 2498 1 0
+/template/cat/movie.html 2 8870 0 0
+END_SIDER

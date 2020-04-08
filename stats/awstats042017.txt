@@ -1,0 +1,586 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201704 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2549                
+POS_VISITOR 11856               
+POS_DAY 17143               
+POS_DOMAIN 3360                
+POS_LOGIN 3592                
+POS_ROBOT 3747                
+POS_WORMS 4252                
+POS_EMAILSENDER 4383                
+POS_EMAILRECEIVER 4526                
+POS_SESSION 17998               
+POS_SIDER 18211               
+POS_FILETYPES 4661                
+POS_OS 4806                
+POS_BROWSER 4943                
+POS_SCREENSIZE 5224                
+POS_UNKNOWNREFERER 5298                
+POS_UNKNOWNREFERERBROWSER 5836                
+POS_ORIGIN 6250                
+POS_SEREFERRALS 6393                
+POS_PAGEREFS 6560                
+POS_SEARCHWORDS 6902                
+POS_KEYWORDS 7078                
+POS_MISC 2213                
+POS_ERRORS 7161                
+POS_CLUSTER 3448                
+POS_SIDER_404 7283                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170501000826 5752 931239 22671030388
+FirstTime 20170401000325
+LastTime 20170430234825
+LastUpdate 20170501023516 5752 5536 215 0 0
+TotalVisits 716                 
+TotalUnique 133                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 138                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 157 178 155252 11 13 11689
+1 168 193 174464 5 6 3068
+2 210 246 294130 5 7 6109
+3 141 148 90058 9 11 22591
+4 136 136 36129 16 18 85106
+5 142 142 45307 7 8 13197
+6 141 147 66996 21 23 39428
+7 150 156 42243 27 28 17796
+8 152 163 47043 4 6 15085
+9 170 208 234511 5 8 65005
+10 169 197 185703 41 46 94211
+11 194 275 416955 126 215 432553
+12 178 220 259976 8 8 13076
+13 184 221 232929 8 13 45403
+14 170 195 119017 9 9 13780
+15 180 216 206669 12 12 16526
+16 156 169 106334 20 27 111258
+17 175 194 377340 9 10 30037
+18 219 301 456994 5 6 12811
+19 194 240 350578 8 10 48588
+20 223 301 571650 9 12 22114
+21 218 271 293915 12 13 66173
+22 222 296 390742 16 16 33854
+23 205 275 689424 8 13 40878
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4254 5088 5844359
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+spider 120 322437 20170430110140 0
+baiduspider 25 160153 20170429063312 0
+yandex 23 326517 20170429093347 0
+googlebot 19 86153 20170430204938 0
+bot[+:,\.\;\/\\-] 11 45307 20170430075857 0
+sogou 6 26951 20170428162337 0
+crawl 6 22667 20170421225239 0
+phantom 5 33213 20170412163538 0
+python 2 0 20170429140659 0
+no_user_agent 1 0 20170414022919 0
+legs 1 0 20170408075237 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 157 800434 0 0
+png 144 1375102 0 0
+html 4254 1797198 0 0
+jpg 2 354120 0 0
+js 531 1517505 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 3
+winlong 2
+winnt 536
+linuxubuntu 1
+linux 857
+macosx 942
+win2003 2
+Unknown 2581
+win2008 164
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 18
+firefox50.0 3
+msie6.0 1
+firefox5.0 1
+firefox48.0 2
+firefox17.0 2
+chrome 2279
+firefox26.0 1
+firefox49.0 2
+firefox7.0.1 2
+msie8.0 1
+firefox33.0 2
+mozilla 38
+msie7.0 2
+firefox3.6.3 1
+msie9.0 88
+Unknown 2579
+firefox15.0.1 1
+safari 83
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170425042052
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170421193919
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20170421121249
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20170403135635
+Symfony_BrowserKit 20170429134612
+Mozilla/4.0_(compatible;_Synapse) 20170429191632
+downnotifier.com_monitoring 20170430234825
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+SafeDNSBot_(https://www.safedns.com/searchbot) 20170425042052
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170421193919
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20170403135635
+Symfony_BrowserKit 20170429134612
+downnotifier.com_monitoring 20170430234825
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3524 3546
+From1 1 1
+From2 32 90
+From3 7 7
+From4 690 1444
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 30 88
+baidu 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://burger-imperia.com 2 2
+https://www.facebook.com/check_tag 1 1
+http://share-buttons-for-free.com 1 1
+http://w3data.co/profile.php 1 1
+https://l.facebook.com 1 1
+http://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+worldwidetrendingnews 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+worldwidetrendingnews 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 410
+406 6 1637
+407 6 2490
+404 305 232401
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 94
+/career/elfinder.html 1 -
+/robots.txt 109 -
+/vendor/mihaildev/yii2-elfinder/assets/elfinder.html 1 -
+/rwanda.html 4 -
+/market/elfinder.html 1 -
+/assets/elfinder/back/elfinder.html 1 -
+/.well-known/apple-app-site-association 2 -
+/gotha/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/_sub/authority/elfinder/elfinder.html 1 -
+/erfurt/gotha/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/news/elfinder.html 1 -
+/france.html 1 -
+/lib/elfinder/build/elfinder.html 1 -
+/lightupfashion/includes/elfinder/elfinder.html 1 -
+/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/wp-dreamworkgallery/css/admin.css 1 -
+/xmlrpc.php 7 -
+/administrator/components/com_jvframework/libraries/elfinder-2.0-rc1/elfinder.html 1 -
+/nigeria.html 1 -
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/moodletreinar/elfinder/elfinder.html 1 -
+/wp-content/plugins/ubh/up.php 1 http://wwtrends.com/wp-content/plugins/ubh/up.php
+/wp-includes/logo_img.php 1 http://wwtrends.com/wp-includes/logo_img.php
+/th1s_1s_a_4o4.html 29 http://www.google.com/url
+/tcsts/tcelf/elfinder.html 1 -
+/user/register 1 -
+/elfinder1/elfinder.html 1 -
+/erpfilemanager/elfinder.html 1 -
+/apple-touch-icon-120x120.png 1 -
+/js/%7B3%7D 31 -
+/common/js/elfinder_2.0/elfinder.html 1 -
+/wp-content/index.php 1 -
+/modules/tadtools/ckeditor/elFinder/elfinder.html 1 -
+/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/_core/utils/elfinder/elfinder.html 1 -
+/contact.html 2 -
+/googlec1085c94f4e8a805.html 1 -
+/downloadable/Adminhtml_Downloadable_File/upload 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/Util/PHP/eval-stdin.php 1 -
+/app/elfinder/elfinder.html 1 -
+/public/thirdParty/elfinder-ckeditor/elfinder.html 1 -
+/assets/elfinder1/elfinder.html 1 -
+/common/js/elfinder-2.0-rc1/elfinder.html 1 -
+/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css 1 -
+/wp-login.php 5 -
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-admin/logo_img.php 1 http://wwtrends.com/wp-admin/logo_img.php
+/vendor/barryvdh/elfinder-builds/elfinder.html 1 -
+/assets/dashboard/js/elrte-1.3/elfinder/elfinder.html 1 -
+/apple-touch-icon.png 1 -
+/backup/preview_Jan27/admin/elfinder/elfinder.html 1 -
+/.well-known/assetlinks.json 2 -
+/gotha/erfurt/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/preview/admin/elfinder/elfinder.html 1 -
+/_backup/library/elfinder/elfinder.html 1 -
+/allinone/administrator/components/com_jvframework/libraries/elfinder-2.0-rc1/elfinder.html 1 -
+/family/view/elfinder/elfinder.html 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/backup/elfinder/elfinder.html 1 -
+/about:blank 29 -
+/wp-content/common.php 1 http://wwtrends.com/wp-content/common.php
+/~daycare/assets/elfinder/elfinder.html 1 -
+/nicasia/assets/elfinder/elfinder.html 1 -
+/uploads/admin/elfinder/elfinder.html 1 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/dev/elfinder/elfinder.html 1 -
+/gotha/gotha/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/user/ 1 -
+/wp-content/logo_img.php 1 http://wwtrends.com/wp-content/logo_img.php
+/authority/elfinder/elfinder.html 1 -
+/backup/preview_Jan9/admin/elfinder/elfinder.html 1 -
+/place1/elfinder/elfinder.html 1 -
+/administrator/index.php 1 -
+/backup/preview_problem/admin/elfinder/elfinder.html 1 -
+/admin/wys/elfinder/elfinder.html 1 -
+/erfurt/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/backup/preview_2/admin/elfinder/elfinder.html 1 -
+/assets/b845e0c8/elfinder/elfinder.html 1 -
+/backup/preview_1/admin/elfinder/elfinder.html 1 -
+/packages/ahmadazimi/laravel-media-manager/elfinder.html 1 -
+/excursions/js/plugins/elfinder2.0/elfinder.html 1 -
+/backoffice/js/texteditor/elfinder/elfinder.html 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/index.php/rss/order/NEW/new 1 -
+/en/admin/elfinder/elfinder.html 1 -
+/index.php 1 -
+/ms/local/vendor/barryvdh/elfinder-builds/elfinder.html 1 -
+/bigmart/js/ves_base/elfinder/elfinder.html 1 -
+/apple-app-site-association 2 -
+/tiny_mce/plugins/elfinder/elfinder.html 1 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+//index.php/component/users/ 1 -
+/erfurt/erfurt/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 138
+104.236.216.73 1374 1374 8595 20170430231820
+139.59.109.12 973 973 0 20170430234825
+51.140.103.156 765 765 596570 20170430233006
+217.115.201.116 221 221 8595 20170404162818
+71.126.161.146 217 408 1097222 20170430220023
+135.84.127.171 55 106 312746 20170427225920
+205.196.4.4 42 84 199760 20170427134537
+204.52.135.188 41 73 251866 20170415155230
+173.73.168.65 37 71 217907 20170404212434
+185.137.18.159 33 63 293156 20170424205934
+204.52.135.122 18 29 51417 20170426202916
+185.188.182.229 1 1 0 20170411160617
+89.155.110.97 1 6 32923 20170405182957
+188.165.197.58 1 1 0 20170423192032
+184.154.139.21 10 30 112425 20170428110859
+185.137.18.133 9 21 60114 20170410231528
+172.58.84.52 5 5 9178 20170423132315
+204.52.135.174 11 23 135369 20170408163810
+202.46.57.185 1 1 0 20170429161506
+166.137.244.92 4 9 0 20170423124453
+204.52.135.172 16 30 83185 20170412131451
+173.252.124.211 1 1 0 20170416111653
+202.46.49.74 1 1 9178 20170424030429
+149.202.72.198 2 2 0 20170417184755
+66.160.134.3 1 1 8595 20170405094417
+135.84.127.179 14 25 85467 20170406230023
+31.13.113.87 0 1 177060 
+217.23.12.100 1 1 0 20170429191632
+198.27.85.233 1 1 0 20170413114228
+204.52.135.176 25 51 134879 20170424234600
+204.52.135.183 5 10 46113 20170404231019
+202.46.51.139 1 1 8595 20170406022855
+61.135.190.223 1 2 13753 20170420185033
+89.248.172.48 1 1 0 20170421011529
+176.126.252.12 1 1 9178 20170427172321
+77.123.2.4 1 1 0 20170416124811
+185.137.18.181 5 10 32206 20170407181129
+166.216.165.62 4 10 39681 20170418130105
+66.249.83.25 3 4 33270 20170419005624
+69.171.230.119 1 1 0 20170408224622
+204.52.135.124 4 5 3527 20170408232900
+216.252.223.238 5 10 0 20170430144438
+37.97.167.228 3 3 0 20170402083353
+88.99.141.3 1 1 0 20170413132529
+208.79.76.146 1 1 8595 20170407220854
+73.66.111.2 17 22 33943 20170409023640
+202.46.56.137 1 1 9178 20170417001337
+199.30.25.146 4 10 5531 20170411094356
+202.46.52.168 1 1 0 20170427034010
+180.116.83.5 1 1 0 20170415074535
+135.84.127.141 20 37 63210 20170402235840
+109.91.204.44 1 1 9178 20170429134612
+40.77.178.63 4 11 11780 20170417005522
+35.184.234.214 2 2 18356 20170410155809
+66.102.6.5 2 3 24313 20170417172758
+66.249.83.29 2 4 24092 20170415165036
+202.46.52.207 1 1 0 20170423095159
+86.110.117.20 5 5 45890 20170430170323
+66.249.83.27 0 1 24092 
+185.137.18.196 10 23 35872 20170415083733
+202.46.51.201 1 1 9178 20170430140015
+184.154.139.19 4 12 40614 20170429110143
+66.102.6.7 2 4 3269 20170417172758
+166.216.165.116 10 20 9178 20170419105324
+150.70.173.42 1 1 0 20170409033701
+131.253.38.67 1 1 0 20170405043312
+45.63.114.215 1 1 8595 20170403135635
+202.46.58.95 1 1 0 20170426215547
+202.46.52.203 1 1 9178 20170422133720
+184.154.139.17 4 12 36086 20170421110450
+40.77.179.70 4 11 11780 20170430102812
+66.249.89.153 1 1 53 20170421121249
+202.46.53.178 1 1 0 20170402164653
+45.32.131.61 1 1 8595 20170401202656
+163.172.223.200 1 1 0 20170401062416
+66.102.6.2 2 5 0 20170417172758
+202.46.48.190 1 1 8595 20170401214151
+202.46.53.40 1 1 9178 20170418074155
+202.46.48.12 1 1 9178 20170415123600
+173.252.124.209 1 1 0 20170421193919
+184.154.139.18 6 18 28498 20170423110352
+202.46.55.148 1 1 0 20170407011925
+37.187.78.81 2 2 0 20170430115158
+204.52.135.202 5 5 0 20170411141958
+97.116.62.222 5 11 44774 20170410233757
+137.74.167.161 1 1 0 20170422071744
+185.137.18.240 5 12 50305 20170417231614
+174.205.9.96 5 11 37282 20170406222034
+181.215.39.48 1 1 0 20170429134045
+202.46.52.155 1 1 8595 20170403102241
+131.253.26.64 2 2 0 20170430015704
+46.229.170.197 2 2 9178 20170423202531
+204.52.135.187 6 13 16375 20170412230203
+192.95.74.145 5 12 56893 20170410125926
+85.222.246.94 1 1 9178 20170409033431
+217.182.68.186 1 1 9178 20170418063348
+45.37.203.31 11 18 90263 20170420180221
+135.84.127.180 26 46 59193 20170416151707
+204.52.135.184 16 29 44114 20170408232337
+202.46.48.197 1 1 9178 20170419005412
+208.167.254.101 4 9 0 20170425182736
+208.118.227.31 8 14 10126 20170413083529
+202.46.52.204 1 1 9178 20170425215429
+202.46.54.185 1 1 0 20170422094145
+188.226.130.60 1 1 9178 20170425042052
+135.84.127.172 2 2 0 20170402132743
+202.46.57.159 1 1 9178 20170430054953
+104.192.74.35 1 1 0 20170426070312
+129.78.110.124 1 1 0 20170411115957
+193.70.14.60 1 1 0 20170414093147
+168.150.14.254 6 12 3490 20170420144216
+202.46.48.148 1 1 9178 20170411212742
+54.185.38.225 1 1 0 20170408060802
+69.171.230.114 1 1 0 20170408224724
+73.90.211.75 5 12 9178 20170415021705
+202.46.49.64 1 1 8595 20170406045939
+202.46.58.84 1 1 8595 20170408224032
+38.100.21.63 1 2 0 20170416155835
+138.246.253.15 2 2 0 20170414025425
+188.226.129.55 1 1 0 20170422182009
+204.52.135.170 7 14 53859 20170422130303
+148.241.128.35 0 6 39462 
+201.53.38.232 0 6 39462 
+73.90.210.146 7 15 3490 20170416223216
+204.52.135.191 11 21 32448 20170411135338
+135.84.127.144 30 72 209965 20170430124012
+202.46.51.32 1 1 9178 20170421163702
+173.252.90.246 0 1 177060 
+193.201.225.109 1 1 8595 20170405051722
+184.154.139.20 5 15 93847 20170430110134
+202.46.49.157 1 1 8595 20170407025315
+135.84.127.140 4 9 0 20170413113132
+73.228.128.250 5 10 0 20170423012302
+202.46.55.67 1 1 0 20170411112751
+192.95.74.138 5 17 50305 20170413151757
+61.135.190.103 1 2 9178 20170420160751
+37.59.4.151 1 1 9178 20170412075123
+47.92.38.108 1 1 0 20170417151556
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170401 80 100 188264 17
+20170402 87 122 245032 17
+20170403 92 104 66857 6
+20170404 129 150 153508 10
+20170405 113 125 99780 13
+20170406 115 129 135864 10
+20170407 130 148 165714 12
+20170408 137 181 420454 23
+20170409 97 125 174469 8
+20170410 89 125 282574 17
+20170411 121 140 79010 24
+20170412 153 177 170500 29
+20170413 171 213 209481 26
+20170414 146 165 175463 29
+20170415 180 230 254763 35
+20170416 176 220 172045 32
+20170417 170 203 360413 30
+20170418 158 180 194300 27
+20170419 195 249 276415 29
+20170420 165 192 155692 28
+20170421 137 146 82293 25
+20170422 151 174 209864 29
+20170423 166 201 310250 31
+20170424 167 208 269403 26
+20170425 155 180 162733 28
+20170426 170 203 207526 30
+20170427 159 188 210111 30
+20170428 135 145 36510 22
+20170429 139 152 104563 32
+20170430 171 213 270508 41
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 193
+5mn-15mn 8
+2mn-5mn 4
+30s-2mn 17
+15mn-30mn 24
+0s-30s 351
+30mn-1h 119
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 36
+/ 3560 1214111 670 593
+/template/userpost.html 143 113150 2 33
+/template/location/frame/ustwitter.html 142 11388 2 45
+/template/menu.html 129 24990 24 1
+/template/news.html 129 82773 7 2
+/template/cat/tech.html 35 96715 7 0
+/template/location/frame/tktwitter.html 35 6351 0 23
+/template/cat/trend.html 10 84010 1 5
+/template/location/frame/rwtwitter.html 6 936 0 0
+/template/location/frame/rwfacebook.html 6 3648 0 1
+/google4c89ce8cd49ff6e0.html 1 53 1 1
+/template/location/nigeria.html 2 6604 0 0
+/template/location/frame/satwitter.html 2 454 0 0
+/template/location/france.html 2 6592 0 0
+/template/location/frame/bltwitter.html 1 246 0 0
+/template/cat/music.html 5 41905 0 3
+/template/location/frame/sptwitter.html 2 442 0 1
+/home.html 1 9178 1 1
+/template/location/belgium.html 1 3272 0 0
+/template/location/frame/rstwitter.html 1 222 0 0
+/template/location/mexico.html 5 16345 1 0
+/template/location/frame/mxtwitter.html 5 1105 0 5
+/template/location/hongkong.html 3 9807 0 0
+/template/location/frame/hktwitter.html 3 672 0 0
+/template/location/frame/jptwitter.html 1 220 0 0
+/template/location/frame/frtwitter.html 2 442 0 1
+/template/location/japan.html 1 3280 0 0
+/template/location/frame/ngtwitter.html 2 444 0 0
+/template/cat/sport.html 1 4785 0 1
+/template/location/saudi.html 2 6542 0 0
+/template/location/kenya.html 2 6974 0 0
+/template/location/russia.html 1 3270 0 0
+/template/location/frame/kntwitter.html 2 440 0 0
+/template/location/rwanda.html 6 9524 0 0
+/template/cat/spot.html 2 2758 0 0
+/template/cat/movie.html 3 23550 0 0
+END_SIDER

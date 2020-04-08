@@ -1,0 +1,420 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201709 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2540                
+POS_VISITOR 7943                
+POS_DAY 10994               
+POS_DOMAIN 3331                
+POS_LOGIN 3563                
+POS_ROBOT 3718                
+POS_WORMS 4200                
+POS_EMAILSENDER 4331                
+POS_EMAILRECEIVER 4474                
+POS_SESSION 11494               
+POS_SIDER 11705               
+POS_FILETYPES 4609                
+POS_OS 4751                
+POS_BROWSER 4853                
+POS_SCREENSIZE 5013                
+POS_UNKNOWNREFERER 5087                
+POS_UNKNOWNREFERERBROWSER 5413                
+POS_ORIGIN 5734                
+POS_SEREFERRALS 5876                
+POS_PAGEREFS 6033                
+POS_SEARCHWORDS 6181                
+POS_KEYWORDS 6333                
+POS_MISC 2204                
+POS_ERRORS 6392                
+POS_CLUSTER 3419                
+POS_SIDER_404 6503                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170917013402 7185 1285430 0
+FirstTime 20170901003448
+LastTime 20170917013402
+LastUpdate 20170917021656 7185 7030 152 0 3
+TotalVisits 859                 
+TotalUnique 71                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 80                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 64 64 68933 32 33 22295
+1 59 59 95761 60 67 34576
+2 63 63 83422 32 36 123909
+3 64 73 154129 41 44 9153
+4 70 91 305694 29 35 10179
+5 62 62 68933 36 40 25250
+6 64 70 116385 38 41 29954
+7 69 81 121880 48 59 162596
+8 63 69 210176 34 38 65395
+9 57 57 98365 36 46 41390
+10 64 81 456628 43 55 171450
+11 91 130 920907 85 155 245590
+12 71 90 599052 38 49 64582
+13 65 69 248266 35 39 20075
+14 89 111 303995 27 29 47197
+15 61 61 81045 31 33 23153
+16 66 74 124438 39 43 171408
+17 93 130 263059 49 49 18811
+18 95 110 385599 31 36 12355
+19 89 106 271846 31 36 54023
+20 72 85 273411 46 52 20738
+21 68 86 146691 37 41 54150
+22 51 68 90707 22 27 255012
+23 52 66 155552 3 9 15776
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1662 1956 5644874
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 156 732032 20170917011936 0
+spider 60 169990 20170916110301 0
+sogou 34 196259 20170915131520 0
+yandex 32 130459 20170917000947 0
+baiduspider 13 50924 20170916055444 0
+bot[+:,\.\;\/\\-] 11 35490 20170913215825 0
+phantom 7 121239 20170906103344 0
+no_user_agent 4 0 20170912201633 0
+mj12bot 2 0 20170912165021 0
+netcraft 1 0 20170907031233 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 49 253706 0 0
+png 50 496145 0 0
+html 1662 2087877 0 0
+jpg 2 354120 0 0
+js 193 2453026 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 213
+winxp 4
+winnt 191
+Unknown 11
+linux 1390
+win2008 147
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 2
+firefox3.5.0 1
+firefox220 1
+mozilla 43
+msie9.0 81
+chrome 1738
+Unknown 11
+safari 59
+firefox3.6.13 20
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WhatsApp/2.17.296_A 20170901175546
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170904123717
+SiteLock 20170915005722
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170906103337
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WhatsApp/2.17.296_A 20170901175546
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20170904123717
+SiteLock 20170915005722
+Mechanize/2.7.5_Ruby/2.2.3p173_(http://github.com/sparklemotion/mechanize/) 20170906103337
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1434 1483
+From1 0 0
+From2 16 46
+From3 0 0
+From4 212 427
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 16 46
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 4 1478
+999 468 0
+404 300 261146
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 31
+/blog/wp-includes/wlwmanifest.xml 3 -
+/'%20+%20document.location%20+%20'/js/app.js 1 -
+/'%20+%20document.location%20+%20'/js/bootstrap-notify.min.js 1 -
+/'%20+%20document.location%20+%20'/js/index.js 1 -
+/'%20+%20document.location%20+%20'/js/search.js 1 -
+/' 5 -
+/th1s_1s_a_4o4.html 20 http://www.google.com/url
+/blog/robots.txt 1 -
+/robots.txt 134 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 6 -
+/LiveSearchSiteAuth.xml 17 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/wp-content/plugins/revslider/temp/update_extract/Uploader.php 1 -
+/bingsiteauth.xml 9 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/uploadify/uploadify.php 1 http://wwtrends.com/wp-admin/
+/js/{3} 4 -
+/wp-content/plugins/showbiz/temp/update_extract/Uploader.php 1 -
+/js/%7B3%7D 17 -
+/wp-includes/wlwmanifest.xml 3 -
+/wp-admin/admin-ajax.php 7 -
+/vpoiowqgav.html 1 -
+/BingSiteAuth.xml 25 -
+/france.html 1 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/about:blank 20 -
+/license.php 3 http://wwtrends.com/wp-admin/
+/wp-login.php 1 -
+/'%20+%20document.location%20+%20'/js/bootstrap-notify.js 1 -
+/ads.txt 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 80
+51.140.103.156 620 620 1475000 20170916213505
+198.143.49.153 361 368 150647 20170917003504 20170917003504 /
+198.143.47.145 185 188 102118 20170917013402 20170917003504 /
+198.143.49.145 171 178 112189 20170916233523
+149.126.76.153 55 94 670987 20170913232805
+149.126.76.145 36 84 228753 20170916132806
+198.143.37.145 22 62 409203 20170916232926
+198.143.37.65 17 17 12588 20170916233015
+198.143.38.17 17 17 18227 20170910122453
+198.143.37.153 16 61 441451 20170916232926
+66.220.146.25 0 1 177060 
+149.126.76.25 3 3 8401 20170913193103
+199.30.25.186 4 12 43393 20170912160405
+184.154.139.21 1 3 75537 20170903100655
+149.126.76.57 4 4 5988 20170907192609
+198.143.49.49 4 4 0 20170912170406
+198.143.37.41 3 3 2202 20170903185439
+198.143.60.1 1 1 0 20170903110656
+198.143.54.145 0 5 36018 
+149.126.76.9 2 2 0 20170902142641
+202.46.49.97 1 1 9735 20170901173453
+198.143.49.41 1 1 0 20170915074606
+192.230.97.49 1 1 0 20170906193809
+202.46.52.112 1 1 9735 20170915083905
+198.143.34.17 1 1 0 20170912212627
+198.143.32.145 3 11 123088 20170910225325
+198.143.37.57 2 2 9735 20170911110044
+202.46.49.96 1 1 9735 20170909125445
+198.143.37.89 6 6 3516 20170913191421
+198.143.37.17 2 2 0 20170914110858
+198.143.32.1 1 1 9735 20170911073246
+198.143.37.113 1 1 0 20170901175546
+198.143.46.41 4 4 0 20170910112844
+204.79.180.6 2 5 19705 20170915064606
+198.143.46.153 4 8 24092 20170910112846
+198.143.47.25 4 4 4560 20170908080115
+204.79.180.15 0 1 2778 
+198.143.60.9 1 1 0 20170906111232
+202.46.51.159 1 1 9735 20170913222203
+198.143.37.33 2 2 0 20170912110225
+198.143.49.1 2 2 0 20170907053237
+131.253.25.221 4 10 31719 20170908070115
+202.46.58.119 1 1 9735 20170907102159
+77.40.129.123 1 10 68330 20170912035614
+198.143.34.33 2 2 0 20170912195331
+204.79.180.21 0 1 2752 
+149.126.76.17 2 2 0 20170915005722
+149.126.76.81 6 6 0 20170909134413
+34.213.175.178 1 1 3008 20170913042638
+198.143.47.153 0 3 107464 
+198.143.37.25 6 6 7022 20170903204750
+198.143.60.153 4 11 31638 20170908110637
+198.143.60.41 1 1 0 20170901110217
+149.126.76.73 1 1 0 20170913152441
+198.143.37.105 4 4 0 20170916110255
+198.143.60.33 1 1 0 20170902110121
+198.143.37.1 8 8 24030 20170913142135
+198.143.32.33 4 4 2937 20170910225325
+204.52.135.180 5 5 4715 20170910102846
+198.143.60.145 0 7 288558 
+198.143.46.145 0 2 177060 
+198.143.38.153 1 8 69226 20170908195807
+198.143.46.57 1 1 0 20170913052639
+149.126.78.81 1 1 0 20170913103315
+40.77.181.156 8 8 19016 20170916042244
+149.126.76.41 5 5 219 20170908232921
+198.143.54.153 0 4 131556 
+198.143.32.153 2 9 12901 20170910225324
+149.126.76.65 14 14 13874 20170914111150
+184.154.139.19 1 7 97318 20170905101203
+176.103.214.16 1 1 9735 20170909163045
+149.126.76.97 1 1 0 20170914061839
+202.46.58.136 1 1 9735 20170912110631
+184.154.139.20 1 3 75538 20170906101231
+198.143.38.145 1 6 131556 20170912201858
+198.143.37.97 3 3 0 20170913194756
+149.126.76.33 5 5 6716 20170916132809
+184.154.139.17 1 7 99858 20170902100120
+198.143.54.25 1 1 0 20170912045615
+204.79.180.9 0 1 2747 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20170901 105 114 281554 61
+20170902 100 116 362648 51
+20170903 119 138 369360 51
+20170904 97 116 756124 57
+20170905 118 151 421229 51
+20170906 96 106 211708 49
+20170907 92 103 389922 53
+20170908 101 120 394351 53
+20170909 116 128 290666 58
+20170910 106 125 335569 52
+20170911 105 114 276923 48
+20170912 97 140 545966 56
+20170913 121 151 367057 61
+20170914 89 107 329199 49
+20170915 94 115 169846 53
+20170916 103 109 142752 54
+20170917 3 3 0 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 68
+5mn-15mn 4
+15mn-30mn 7
+30s-2mn 10
+2mn-5mn 1
+0s-30s 588
+30mn-1h 179
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 31
+/ 1457 1972042 800 778
+/template/userpost.html 43 23606 7 27
+/template/news.html 41 17107 26 9
+/template/location/frame/ustwitter.html 40 2757 9 13
+/template/menu.html 33 4601 9 14
+/template/location/frame/rwtwitter.html 6 936 0 2
+/template/location/rwanda.html 6 6996 2 0
+/template/location/frame/rwfacebook.html 6 3648 0 2
+/template/location/nigeria.html 2 6620 1 0
+/template/cat/trend.html 2 8401 1 1
+/template/cat/tech.html 1 3341 0 1
+/template/location/hongkong.html 1 3277 1 0
+/template/location/frame/hktwitter.html 1 224 0 0
+/template/location/frame/jptwitter.html 1 220 0 1
+/template/location/frame/satwitter.html 1 227 0 1
+/template/location/brazil.html 1 3310 0 0
+/template/location/frame/frtwitter.html 1 221 0 0
+/template/location/france.html 1 3304 0 0
+/template/location/japan.html 1 3288 0 0
+/template/location/frame/bltwitter.html 1 245 0 0
+/template/location/frame/sptwitter.html 1 221 0 1
+/template/location/frame/ngtwitter.html 2 444 0 2
+/template/location/saudi.html 1 3279 0 0
+/template/location/kenya.html 2 6990 1 0
+/template/location/frame/intwitter.html 2 440 0 1
+/template/location/frame/brtwitter.html 1 221 0 1
+/template/location/frame/kntwitter.html 2 440 0 2
+/template/cat/spot.html 1 1380 0 0
+/template/location/india.html 2 6592 1 0
+/template/location/belgium.html 1 3280 1 0
+/template/location/frame/tktwitter.html 1 219 0 1
+END_SIDER
